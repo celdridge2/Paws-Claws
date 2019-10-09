@@ -62,3 +62,5 @@ X:\Users\jcarnes4\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Paws
 X:\Users\jcarnes4\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.dll
 X:\Users\jcarnes4\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.pdb
 X:\Users\jcarnes4\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.csproj.CopyComplete
+X:\Users\daugustine\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.dll
+X:\Users\daugustine\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.pdb
