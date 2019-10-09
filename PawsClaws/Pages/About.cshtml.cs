@@ -12,7 +12,7 @@ namespace PawsClaws.Pages
 
         public void OnGet()
         {
-            Message = "Your application description page. Hi mom!";
+            Message = "Your application description page. Hi mom! I can't believe I'm online!";
         }
     }
 }
