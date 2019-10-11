@@ -1,19 +1,59 @@
-﻿@page
+@page
 @model ContactModel
 @{
-    ViewData["Title"] = "Contact";
+    ViewData["Title"] = "Contact Us";
 }
 <h2>@ViewData["Title"]</h2>
-<h3>@Model.Message</h3>
+<!--<h3>@Model.Message</h3>-->
+
+
+<div id="contacForm">
+
+    <form action="/action_page.php">
+        <p>Name:</p>
+        <input type="text" name="FirstName" placeholder=" First Name" />
+        <input type="text" name="LastName" placeholder="Last Name" />
+
+        <p>Email:</p>
+        <input type="email" name="email" placeholder="example@gmail.com" />
+
+        <p>Phone Number:</p>
+        <input type="number" name="phoneNumber" placeholder="555-555-5555" />
+
+        <p>Message:</p>
+        <textarea name="message" rows="10" cols="45"></textarea>
+        <br />
+
+        <input type="submit" value="Submit" />
+    </form>
+</div>
+
+<div id="hours">
+    <h2>Hours</h2>
+    <ul>
+        <li>Sunday     Closed</li>
+        <li>Monday     10AM-2PM</li>
+        <li>Tuesday    10AM-2PM</li>
+        <li>Wednesday  10AM-2PM</li>
+        <li>Thursday   10AM-2PM</li>
+        <li>Friday     10AM-2PM</li>
+        <li>Saturday   10AM-2PM</li>
+    </ul>
+</div>
+<br />
 
 <address>
-    One Microsoft Way<br />
-    Redmond, WA 98052-6399<br />
-    <abbr title="Phone">P:</abbr>
-    425.555.0100
+    <h3>Address</h3>
+    12903 Hwy 155 South<br />
+    Tyler, Texas 75703<br />
+    <a href="http://share.here.com/r/mylocation/e-eyJuYW1lIjoiTmljaG9sYXMgUGV0IEhhdmVuIiwiYWRkcmVzcyI6IjEyOTAzIEh3eSAxNTUgU291dGgsIFR5bGVyLCBUZXhhcyIsImxhdGl0dWRlIjozMi4yOTQxNTA0MDUxMjcsImxvbmdpdHVkZSI6LTk1LjM0Nzk5NTMzNDEwNSwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjo1NjE2Mjc4NzA1NTc5MjR9?link=addresses&fb_locale=en_US&ref=facebook">Get Directions</a>
+    <p title="Phone">Phone:<br />(903) 312-7585</p>
 </address>
+
+<!--
 
 <address>
     <strong>Support:</strong> <a href="mailto:Support@example.com">Support@example.com</a><br />
     <strong>Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
 </address>
+-->
