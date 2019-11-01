@@ -7,6 +7,11 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
+    <PackageReference Include="MySql.Data" Version="8.0.18" />
+    <PackageReference Include="MySql.Data.EntityFramework" Version="8.0.18" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore" Version="8.0.18" />
+    <PackageReference Include="MySql.Data.EntityFrameworkCore.Design" Version="8.0.18" />
+    <PackageReference Include="MySql.Web" Version="8.0.18" />
   </ItemGroup>
 
 </Project>
