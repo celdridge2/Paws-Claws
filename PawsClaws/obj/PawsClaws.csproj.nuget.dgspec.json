@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charles\\source\\repos\\PawsClaws\\PawsClaws.csproj": {}
+    "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\PawsClaws.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charles\\source\\repos\\PawsClaws\\PawsClaws.csproj": {
+    "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\PawsClaws.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charles\\source\\repos\\PawsClaws\\PawsClaws.csproj",
+        "projectUniqueName": "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
         "projectName": "PawsClaws",
-        "projectPath": "C:\\Users\\Charles\\source\\repos\\PawsClaws\\PawsClaws.csproj",
+        "projectPath": "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
         "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charles\\source\\repos\\PawsClaws\\obj\\",
+        "outputPath": "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
