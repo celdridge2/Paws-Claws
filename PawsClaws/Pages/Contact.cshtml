@@ -8,8 +8,9 @@
 
 <style>
     .row {
-        display: flex;
+        /*display: flex;*/
         flex-direction: row;
+        padding-top: 10%;
     }
 
     .col {
@@ -47,9 +48,23 @@
         width: 1000px;
         margin: 0 auto; /*this will cause the div to be in the center*/
     }
+
+    .col-xs-6 {
+        padding-left: 15%;
+    }
+
+    #contacForm{
+        background-color:aqua;
+    }
+
+    #right-side-bg{
+        margin-right:auto;
+        margin-left: 50%;
+        background-color:blue;
+    }
 </style>
 
-<div class="central-wrapper">
+<!--<div class="central-wrapper">
     <div class="main-wrapper">
         <div class="h2-header">
             <h2>Get In Touch</h2>
@@ -69,12 +84,26 @@
     </div>
 </div>
 
-<br />
+<br />-->
 
 <div class="container-fluid">
-    <h1> Your Information</h1>
+
     <div class="row">
-        <div id="contacForm" class="col">
+        <h1> CONTACT US</h1>
+        <div id="hours" class="col-xs-6">
+            <h2>Hours</h2>
+            <ul>
+                <li>Sunday     Closed</li>
+                <li>Monday     10AM-2PM</li>
+                <li>Tuesday    10AM-2PM</li>
+                <li>Wednesday  10AM-2PM</li>
+                <li>Thursday   10AM-2PM</li>
+                <li>Friday     10AM-2PM</li>
+                <li>Saturday   10AM-2PM</li>
+            </ul>
+        </div>
+
+        <div id="contacForm" class="col-xs-6">
 
             <form action="/action_page.php">
                 <p>Name:</p>
@@ -95,19 +124,10 @@
             </form>
         </div>
 
-        <div id="hours" class="col">
-            <h2>Hours</h2>
-            <ul>
-                <li>Sunday     Closed</li>
-                <li>Monday     10AM-2PM</li>
-                <li>Tuesday    10AM-2PM</li>
-                <li>Wednesday  10AM-2PM</li>
-                <li>Thursday   10AM-2PM</li>
-                <li>Friday     10AM-2PM</li>
-                <li>Saturday   10AM-2PM</li>
-            </ul>
-        </div>
+
     </div>
+
+    <div id="right-side-bg"></div>
 </div>
 
 <br />
