@@ -17,12 +17,10 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top text-center">
+    <nav class="navbar navbar-default navbar-fixed-top d-flex justify-content-around">
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav mr-auto text-center mx-auto my-2 order-0 order-md-1 position-relative">
-                    <li class="mx-auto my-2 order-0 order-md-1 position-relative">
-                        <a asp-page="/Index" class="navbar-brand mx-auto"><img src="~/images/Logo.jpg" height="75" width="75" class="img-rounded" /></a>
-                    </li>
+                <ul class="nav navbar-nav">
+                    <li><a asp-page="/Index" class="navbar-brand mx-auto"><img src="~/images/Logo.jpg" height="75" width="75" class="img-circle" /></a></li>
                     <li><a asp-page="/Index">Home</a></li>
                     <li><a asp-page="/Pets">Pets</a></li>
                     <li><a asp-page="/About">About</a></li>
