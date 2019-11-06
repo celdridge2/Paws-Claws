@@ -10,7 +10,6 @@
     .row {
         /*display: flex;*/
         flex-direction: row;
-        padding-top: 10%;
     }
 
     .col {
@@ -19,48 +18,38 @@
         max-width: 100%;
     }
 
-    .main-wrapper {
-        background-color: rgb(27,27,27);
-        position: relative;
-        /* top: 50px; */
-        right: 0;
-        /* bottom: 100px; */
-        left: 0;
-        /* margin-bottom: 100px;*/
-    }
-
-    .row-inner {
-        padding-left: 15px;
-        text-align: center;
-        color: white;
-    }
-
-    .h2-header {
-        /*padding-left: 50px;*/
-        text-align: center;
-        color: white;
-        font-family: 'Franklin Gothic';
-        font-weight: bold;
-    }
-
-    .central-wrapper {
-        height: auto; /*if more info comes on the page, it will stretch down*/
-        width: 1000px;
-        margin: 0 auto; /*this will cause the div to be in the center*/
-    }
-
-    .col-xs-6 {
+    /*.col-xs-6 {
         padding-left: 15%;
-    }
+        padding-top: 10%;
+    }*/
 
     #contacForm{
         background-color:aqua;
+        margin: auto;
+        width: 25%;
+        min-width: 25%;
     }
+
+    .inner-form{
+        padding-left:65px;
+        background-color:blue;
+        width:fit-content;
+    }
+
+    #hours{
+        float: left;
+    }
+        
 
     #right-side-bg{
         margin-right:auto;
         margin-left: 50%;
         background-color:blue;
+    }
+
+    .vl{
+        height: 500px;
+        color:black;
     }
 </style>
 
@@ -87,24 +76,30 @@
 <br />-->
 
 <div class="container-fluid">
+    <!--<div class="row">
 
-    <div class="row">
-        <h1> CONTACT US</h1>
-        <div id="hours" class="col-xs-6">
-            <h2>Hours</h2>
-            <ul>
-                <li>Sunday     Closed</li>
-                <li>Monday     10AM-2PM</li>
-                <li>Tuesday    10AM-2PM</li>
-                <li>Wednesday  10AM-2PM</li>
-                <li>Thursday   10AM-2PM</li>
-                <li>Friday     10AM-2PM</li>
-                <li>Saturday   10AM-2PM</li>
-            </ul>
-        </div>
 
-        <div id="contacForm" class="col-xs-6">
 
+    </div>-->
+
+
+    <h1 style="padding-left: 15%"> CONTACT US</h1>
+    <div id="hours" >
+        <h2>Hours</h2>
+        <ul>
+            <li>Sunday     Closed</li>
+            <li>Monday     10AM-2PM</li>
+            <li>Tuesday    10AM-2PM</li>
+            <li>Wednesday  10AM-2PM</li>
+            <li>Thursday   10AM-2PM</li>
+            <li>Friday     10AM-2PM</li>
+            <li>Saturday   10AM-2PM</li>
+        </ul>
+    </div>
+    
+
+    <div id="contacForm" >
+        <div class="inner-form">
             <form action="/action_page.php">
                 <p>Name:</p>
                 <input type="text" name="FirstName" placeholder=" First Name" />
@@ -122,9 +117,7 @@
 
                 <input type="submit" value="Submit" />
             </form>
-        </div>
-
-
+       </div>        
     </div>
 
     <div id="right-side-bg"></div>
