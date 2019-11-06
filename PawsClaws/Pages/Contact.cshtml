@@ -7,131 +7,198 @@
 <!--<h3>@Model.Message</h3>-->
 
 <style>
+    .container-fluid{
+        width: 100%;
+    }
+
+    .inner-container{
+        padding-left:15px;
+        padding-right:15px;
+    }
+
     .row {
-        /*display: flex;*/
-        flex-direction: row;
+       margin-right: -15px;
+       padding-left: 15px;
     }
 
-    .col {
-        flex-basis: 0;
-        flex-grow: 1;
-        max-width: 100%;
+    #inner-row{
+        margin-top: 275px;
     }
 
+    .col-md{
+        padding-left:35px;
+        padding-right:35px;
+    }
+
+    #form-block{
+        background-color:#dfdfdf;
+    }
+
+    #contacForm{
+        margin-top: 290px;
+        padding-bottom: 575px;
+        padding-left: 105px;
+        padding-right: 105px;
+        color: black;
+    }
+    
     /*.col-xs-6 {
         padding-left: 15%;
         padding-top: 10%;
     }*/
 
-    #contacForm{
+    /*#contacForm{
         background-color:aqua;
         margin: auto;
         width: 25%;
         min-width: 25%;
-    }
+    }*/
 
     .inner-form{
-        padding-left:65px;
-        background-color:blue;
         width:fit-content;
     }
 
     #hours{
-        float: left;
-    }
         
-
-    #right-side-bg{
-        margin-right:auto;
-        margin-left: 50%;
-        background-color:blue;
-    }
-
-    .vl{
-        height: 500px;
-        color:black;
     }
 </style>
 
-<!--<div class="central-wrapper">
-    <div class="main-wrapper">
-        <div class="h2-header">
-            <h2>Get In Touch</h2>
-        </div>
 
-        <div class="row-inner">
-            <div class="row">
-                <div class="col">
-                    <p>Phone: (903) 312-7585</p>
+
+<div class="container-fluid">
+    <div class="inner-container">
+        <div class="row">
+
+            <div class="col-md-6">
+
+                <div id="inner-row" class="row">
+
+                    <div class="col-md">
+                        <h1> CONTACT US</h1>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <div class="col-md">
+                        <div id="hours">
+                            <h2>Hours</h2>
+                            <ul>
+                                <li>Sunday     Closed</li>
+                                <li>Monday     10AM-2PM</li>
+                                <li>Tuesday    10AM-2PM</li>
+                                <li>Wednesday  10AM-2PM</li>
+                                <li>Thursday   10AM-2PM</li>
+                                <li>Friday     10AM-2PM</li>
+                                <li>Saturday   10AM-2PM</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="w-100"></div>
+
+                    <div class="col-md">
+                        <address>
+                            <h3>Address</h3>
+                            12903 Hwy 155 South<br />
+                            Tyler, Texas 75703<br />
+                            <a href="http://share.here.com/r/mylocation/e-eyJuYW1lIjoiTmljaG9sYXMgUGV0IEhhdmVuIiwiYWRkcmVzcyI6IjEyOTAzIEh3eSAxNTUgU291dGgsIFR5bGVyLCBUZXhhcyIsImxhdGl0dWRlIjozMi4yOTQxNTA0MDUxMjcsImxvbmdpdHVkZSI6LTk1LjM0Nzk5NTMzNDEwNSwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjo1NjE2Mjc4NzA1NTc5MjR9?link=addresses&fb_locale=en_US&ref=facebook">Get Directions</a>
+                            <p title="Phone">Phone:<br />(903) 312-7585</p>
+                        </address>
+                    </div>
+
                 </div>
-                <div class="col">
-                    <p>Email: nicholaspethaven@yahoo.com</p>
+
+            </div>
+
+            <div id="form-block" class="col-md-6">
+                <div id="contacForm">
+                    <h1>Your Information</h1>
+                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="name" name="name" class="form-control">
+                                    <label for="name" class="">Your name</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+                            <!--Grid column-->
+                            <div class="col-md-6">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="email" name="email" class="form-control">
+                                    <label for="email" class="">Your email</label>
+                                </div>
+                            </div>
+                            <!--Grid column-->
+
+                        </div>
+                        <!--Grid row-->
+                        <!--Grid row-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="md-form mb-0">
+                                    <input type="text" id="subject" name="subject" class="form-control">
+                                    <label for="subject" class="">Subject</label>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Grid row-->
+                        <!--Grid row-->
+                        <div class="row">
+
+                            <!--Grid column-->
+                            <div class="col-md-12">
+
+                                <div class="md-form">
+                                    <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                    <label for="message">Your message</label>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!--Grid row-->
+
+                    </form>
+
+                    <div class="text-center text-md-left">
+                        <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                    </div>
+
+                    <!--<div class="inner-form">
+        <form action="/action_page.php">
+            <p>Name:</p>
+            <input type="text" name="FirstName" placeholder=" First Name" />
+            <input type="text" name="LastName" placeholder="Last Name" />
+
+            <p>Email:</p>
+            <input type="email" name="email" placeholder="example@gmail.com" />
+
+            <p>Phone Number:</p>
+            <input type="number" name="phoneNumber" placeholder="555-555-5555" />
+
+            <p>Message:</p>
+            <textarea name="message" rows="10" cols="45"></textarea>
+            <br />
+
+            <input type="submit" value="Submit" />
+        </form>
+    </div>-->
+
                 </div>
             </div>
         </div>
 
+
     </div>
-</div>
-
-<br />-->
-
-<div class="container-fluid">
-    <!--<div class="row">
-
-
-
-    </div>-->
-
-
-    <h1 style="padding-left: 15%"> CONTACT US</h1>
-    <div id="hours" >
-        <h2>Hours</h2>
-        <ul>
-            <li>Sunday     Closed</li>
-            <li>Monday     10AM-2PM</li>
-            <li>Tuesday    10AM-2PM</li>
-            <li>Wednesday  10AM-2PM</li>
-            <li>Thursday   10AM-2PM</li>
-            <li>Friday     10AM-2PM</li>
-            <li>Saturday   10AM-2PM</li>
-        </ul>
-    </div>
-    
-
-    <div id="contacForm" >
-        <div class="inner-form">
-            <form action="/action_page.php">
-                <p>Name:</p>
-                <input type="text" name="FirstName" placeholder=" First Name" />
-                <input type="text" name="LastName" placeholder="Last Name" />
-
-                <p>Email:</p>
-                <input type="email" name="email" placeholder="example@gmail.com" />
-
-                <p>Phone Number:</p>
-                <input type="number" name="phoneNumber" placeholder="555-555-5555" />
-
-                <p>Message:</p>
-                <textarea name="message" rows="10" cols="45"></textarea>
-                <br />
-
-                <input type="submit" value="Submit" />
-            </form>
-       </div>        
-    </div>
-
-    <div id="right-side-bg"></div>
 </div>
 
 <br />
 
-<address>
-    <h3>Address</h3>
-    12903 Hwy 155 South<br />
-    Tyler, Texas 75703<br />
-    <a href="http://share.here.com/r/mylocation/e-eyJuYW1lIjoiTmljaG9sYXMgUGV0IEhhdmVuIiwiYWRkcmVzcyI6IjEyOTAzIEh3eSAxNTUgU291dGgsIFR5bGVyLCBUZXhhcyIsImxhdGl0dWRlIjozMi4yOTQxNTA0MDUxMjcsImxvbmdpdHVkZSI6LTk1LjM0Nzk5NTMzNDEwNSwicHJvdmlkZXJOYW1lIjoiZmFjZWJvb2siLCJwcm92aWRlcklkIjo1NjE2Mjc4NzA1NTc5MjR9?link=addresses&fb_locale=en_US&ref=facebook">Get Directions</a>
-    <p title="Phone">Phone:<br />(903) 312-7585</p>
-</address>
+
 
 <!--
 
