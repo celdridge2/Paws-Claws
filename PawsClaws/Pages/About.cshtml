@@ -3,7 +3,7 @@
 @{
     ViewData["Title"] = "About";
 }
-<h2>@ViewData["Title"]</h2>
+
 <!--<h3>@Model.Message</h3>-->
 
 <style>
@@ -13,54 +13,71 @@
     }
 
     .inner-wrapper{
-        padding-left:45px;
-        padding-right:45px;
+        padding-left:5px;
+        padding-right:5px;
     }
 
     .description-section{
-        float:left;
-        width:150px;
+       
     }
 
     .dog_image{
-        float:right;
+        width: 100%;
+    }
+
+    .row{
+        margin-right:-15px;
+    }
+
+    .img-fluid{
+        width:100%;
     }
 </style>
 
 <div  class="wrapper-class">
     <div class="inner-wrapper">
-       
-        <div class="description-section">
-            <h2>Our Story</h2>
-            <div class="story-section">
-                <p>
-                    Latom when john is killed. David what are we going to have for breakfast.
-                    Apples are orange when the sun is kissed on the belly button.
-                    Don't worry, we'll be ok as long as we stick together.She was too short to see over the fence.
-                    The sky is clear; the stars are twinkling.
-                    It was getting dark, and we weren’t there yet.
-                    Writing a list of random sentences is harder than I initially thought it would be.
-                    The quick brown fox jumps over the lazy dog.
-                    If Purple People Eaters are real… where do they find purple people to eat?
-                </p>
+        
+        <div class="row justify-content-around">
+            <div class="col-md-7">
+                <h2>@ViewData["Title"]</h2>
+            </div>
+            <div class="w-100"></div>
+            <div class="col-md-8">
+                <div class="description-section">
+                    <h2>Our Story</h2>
+                    <div class="story-section">
+                        <p>
+                            Latom when john is killed. David what are we going to have for breakfast.
+                            Apples are orange when the sun is kissed on the belly button.
+                            Don't worry, we'll be ok as long as we stick together.She was too short to see over the fence.
+                            The sky is clear; the stars are twinkling.
+                            It was getting dark, and we weren’t there yet.
+                            Writing a list of random sentences is harder than I initially thought it would be.
+                            The quick brown fox jumps over the lazy dog.
+                            If Purple People Eaters are real… where do they find purple people to eat?
+                        </p>
 
-                <p>
-                    The stranger officiates the meal.
-                    He ran out of money, so he had to stop playing poker.
-                    Lets all be unique together until we realise we are all the same.
-                    She wrote him a long letter, but he didn't read it.
-                    If the Easter Bunny and the Tooth Fairy had babies would they take your teeth and leave chocolate for you?
-                    He said he was not there yesterday; however, many people saw him there.
-                    I will never be this young again. Ever. Oh damn… I just got older.
-                    I really want to go to work, but I am too sick to drive.
-                    I am happy to take your donation; any amount will be greatly appreciated.
-                    A glittering gem is not enough.
-                </p>
+                        <p>
+                            The stranger officiates the meal.
+                            He ran out of money, so he had to stop playing poker.
+                            Lets all be unique together until we realise we are all the same.
+                            She wrote him a long letter, but he didn't read it.
+                            If the Easter Bunny and the Tooth Fairy had babies would they take your teeth and leave chocolate for you?
+                            He said he was not there yesterday; however, many people saw him there.
+                            I will never be this young again. Ever. Oh damn… I just got older.
+                            I really want to go to work, but I am too sick to drive.
+                            I am happy to take your donation; any amount will be greatly appreciated.
+                            A glittering gem is not enough.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="dog_image">
+                    <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/73292707_2484053138315378_3667788408769478656_n.jpg?_nc_cat=100&_nc_oc=AQkMy8AlLgiQkwWXjEFY2mjSEnR5bJDAcnvylOyDhYVFFhZGd-2YEW4BptJyYwoW9a4&_nc_ht=scontent-dfw5-1.xx&oh=f055eecbd135ecaad5d22d86fffc9734&oe=5E5EA7EE" class="img-fluid" />
+                </div>
             </div>
         </div>
 
-        <div class="dog_image">
-            <img src="https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/73292707_2484053138315378_3667788408769478656_n.jpg?_nc_cat=100&_nc_oc=AQkMy8AlLgiQkwWXjEFY2mjSEnR5bJDAcnvylOyDhYVFFhZGd-2YEW4BptJyYwoW9a4&_nc_ht=scontent-dfw5-1.xx&oh=f055eecbd135ecaad5d22d86fffc9734&oe=5E5EA7EE"
-        </div>
     </div>
 </div>
