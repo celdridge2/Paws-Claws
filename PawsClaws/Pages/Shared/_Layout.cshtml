@@ -17,9 +17,21 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">    
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a asp-page="/Index" class="navbar-brand navbar-toggle" style="float:left; padding: 0px  0px; margin-left: 10px;  margin-top: 0px;  margin-bottom: 0px;  background-color: none;  background-image: none;  border: none;  border-radius: 0px;" data-toggle="collapse">
+                    <img src="~/images/Logo.jpg" height="50" width="50" class="img-circle" />
+                </a>
+            </div>
             <div class="navbar-collapse collapse">
-                <ul class="nav navbar-nav mx-auto">
+                <ul class="nav navbar-nav">
                     <li class="col-lg-2"><a asp-page="/Index">Home</a></li>
                     <li class="col-lg-2"><a asp-page="/Pets/Index">Pets</a></li>
                     <li class="col-lg-2"><a asp-page="/Index" class="navbar-brand mx-auto"><img src="~/images/Logo.jpg" height="75" width="75" class="img-circle" /></a></li>
@@ -27,12 +39,14 @@
                     <li class="col-lg-2"><a asp-page="/Contact">Contact</a></li>
                 </ul>
             </div>
+        </div>            
     </nav>
 
     <partial name="_CookieConsentPartial" />
 
-    <div class="container-fluid body-content h-100">
-        @RenderBody()
+    
+    <div class="container-fluid body-content h-100" style="margin-top:20px">
+        @RenderBody() 
         <hr />
         <footer>
             <p>&copy; 2019 - PawsClaws</p>
