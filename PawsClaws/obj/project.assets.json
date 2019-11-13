@@ -13428,11 +13428,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Justin Carnes\\source\\repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "projectUniqueName": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
       "projectName": "PawsClaws",
-      "projectPath": "C:\\Users\\Justin Carnes\\source\\repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "projectPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
       "packagesPath": "C:\\Users\\Justin Carnes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Justin Carnes\\source\\repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
+      "outputPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Justin Carnes\\AppData\\Roaming\\NuGet\\NuGet.Config",
