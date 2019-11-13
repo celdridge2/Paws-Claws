@@ -96,7 +96,6 @@ C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsC
 C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.dll
 C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.pdb
 C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.csproj.CopyComplete
-C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets.g.cshtml.cs
 C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.dll
 C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.pdb
 C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\appsettings.Development.json
@@ -206,3 +205,8 @@ C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\ne
 C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Details.cshtml.g.cs
 C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Edit.cshtml.g.cs
 C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Index.cshtml.g.cs
+C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Create.g.cshtml.cs
+C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Delete.g.cshtml.cs
+C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Details.g.cshtml.cs
+C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Edit.g.cshtml.cs
+C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Index.g.cshtml.cs
