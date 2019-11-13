@@ -167,3 +167,42 @@ C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.RazorTargetAssemblyInfo.cs
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.Views.pdb
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.csproj.CopyComplete
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.dll
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.pdb
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.csprojAssemblyReference.cache
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.RazorAssemblyInfo.cache
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.RazorAssemblyInfo.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.AssemblyInfoInputs.cache
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.AssemblyInfo.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\PawsClaws.deps.json
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\PawsClaws.runtimeconfig.json
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\PawsClaws.runtimeconfig.dev.json
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\PawsClaws.dll
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\PawsClaws.pdb
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\PawsClaws.Views.dll
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\bin\Debug\netcoreapp2.1\PawsClaws.Views.pdb
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.TagHelpers.input.cache
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.TagHelpers.output.cache
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.RazorCoreGenerate.cache
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\About.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.RazorTargetAssemblyInfo.cache
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.RazorTargetAssemblyInfo.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.Views.pdb
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\PawsClaws.csproj.CopyComplete
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Create.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Delete.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Details.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Edit.cshtml.g.cs
+C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Index.cshtml.g.cs
