@@ -13419,23 +13419,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Charles\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Justin Carnes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "projectUniqueName": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
       "projectName": "PawsClaws",
-      "projectPath": "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
-      "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Charles\\Source\\Repos\\Paws-Claws\\PawsClaws\\obj\\",
+      "projectPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "packagesPath": "C:\\Users\\Justin Carnes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Charles\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Justin Carnes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13502,10 +13498,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -13524,7 +13526,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data.EntityFramework 8.0.18' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data.EntityFramework 8.0.18' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data.EntityFramework",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -13534,7 +13536,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Data.EntityFrameworkCore.Design 8.0.18' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Data.EntityFrameworkCore.Design 8.0.18' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Data.EntityFrameworkCore.Design",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"
@@ -13544,7 +13546,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'MySql.Web 8.0.18' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
+      "message": "Package 'MySql.Web 8.0.18' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "MySql.Web",
       "targetGraphs": [
         ".NETCoreApp,Version=v2.1"

@@ -1,4 +1,4 @@
-﻿@page "{SpeciesFilter?}"
+﻿@page "{Species?}"
 @model PawsClaws.Pages.Pets.IndexModel
 
 @{
@@ -8,9 +8,9 @@
 <h2>Pets</h2>
 
 <h4>
-    <a href="https://localhost:5001/Pets/">All</a>
-    <a href="https://localhost:5001/Pets?SpeciesFilter=Cat">Cats</a>
-    <a href="https://localhost:5001/Pets?SpeciesFilter=Dog">Dogs</a>
+    <a href="~/Pets/">All</a>
+    <a href="~/Pets?Species=Cat">Cats</a>
+    <a href="~/Pets?Species=Dog">Dogs</a>
 </h4>
 
 <head>
@@ -145,8 +145,10 @@
         <div class="row">
             @foreach (var item in Model.Pet)
             {
-                <div class="col-xs-8 col-sm-4 col-md-2 col-lg-2 petBoxes"><a href="https://localhost:5001/Pets/Details?id=@item.ID">@Html.DisplayFor(modelItem => item.Name)</a> :: @Html.DisplayFor(modelItem => item.Breed)<br />
-                    @Html.DisplayFor(modelItem => item.Sex) :: @Html.DisplayFor(modelItem => item.Age)</div>
+                <div class="col-xs-8 col-sm-4 col-md-2 col-lg-2 petBoxes">
+                    <a href="~/Pets/Details?id=@item.ID">@Html.DisplayFor(modelItem => item.Name)</a> :: @Html.DisplayFor(modelItem => item.Breed)<br />
+                    @Html.DisplayFor(modelItem => item.Sex) :: @Html.DisplayFor(modelItem => item.Age)
+                </div>
             }
         </div>
     </div>

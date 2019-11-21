@@ -22,31 +22,16 @@ namespace PawsClaws.Pages.Pets
         public IList<Pet> Pet { get;set; }
 
         [BindProperty(SupportsGet = true)]
-        public string SpeciesFilter { get; set; }
+        public string Species { get; set; }
         
 
         public async Task OnGetAsync()
         {
             var pets = from m in _context.Pet select m;
-            if (!string.IsNullOrEmpty(SpeciesFilter))
-                pets = pets.Where(s => s.Species.Equals(SpeciesFilter));
+            if (!string.IsNullOrEmpty(Species))
+                pets = pets.Where(s => s.Species.Equals(Species));
             
             Pet = await pets.ToListAsync();
-        }
-
-        public void OnPostAll()
-        {
-            SpeciesFilter = "";
-        }
-
-        public void OnPostDogs()
-        {
-            SpeciesFilter = "Dog";
-        }
-
-        public void OnPostCats()
-        {
-            SpeciesFilter = "Cat";
         }
     }
 }
