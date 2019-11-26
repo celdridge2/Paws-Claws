@@ -34,7 +34,11 @@
                 <ul class="nav navbar-nav">
                     <li class="col-lg-2"><a asp-page="/Index">Home</a></li>
                     <li class="col-lg-2"><a asp-page="/Pets/Index">Pets</a></li>
-                    <li class="col-lg-2"><a asp-page="/Index" class="navbar-brand mx-auto"><img src="~/images/Logo.jpg" height="75" width="75" class="img-circle" /></a></li>
+                    <li class="col-lg-2">
+                        <a asp-page="/Index" id="homePic" class="navbar-brand mx-auto hide-me">
+                            <img src="~/images/Logo.jpg" height="75" width="75" class="img-circle"/>
+                        </a>
+                    </li>
                     <li class="col-lg-2"><a asp-page="/About">About</a></li>
                     <li class="col-lg-2"><a asp-page="/Contact">Contact</a></li>
                 </ul>
