@@ -13419,19 +13419,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Justin\\.nuget\\packages\\": {}
+    "C:\\Users\\Justin Carnes\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Justin\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "projectUniqueName": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
       "projectName": "PawsClaws",
-      "projectPath": "C:\\Users\\Justin\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
-      "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Justin\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
+      "projectPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "packagesPath": "C:\\Users\\Justin Carnes\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Justin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Justin Carnes\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13439,7 +13439,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://nuget.org": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
