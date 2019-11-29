@@ -5,9 +5,9 @@
     ViewData["Title"] = "Pets";
 }
 
-<h2>Pets</h2>
+<h2 style="text-align: center;">Pets</h2>
 
-<h4>
+<h4 style="text-align: center; word-spacing: 50px;">
     <a href="~/Pets/">All</a>
     <a href="~/Pets?Species=Cat">Cats</a>
     <a href="~/Pets?Species=Dog">Dogs</a>
@@ -32,113 +32,13 @@
             padding: 100px 50px 100px 50px;
         }
     </style>
+
 </head>
 
 <p>
     <a asp-page="Create">Create New</a>
 </p>
-<!--
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Name)
-            </th>
 
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Species)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Breed)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Sex)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Size)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Color)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].FurLength)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].DateOfBirth)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Age)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Spay_Neuter)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].ShotsUTD)
-            </th>
-
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].AtShelter)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Pet[0].Description)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model.Pet)
-        {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Name)
-            </td>
-
-            <td>
-                @Html.DisplayFor(modelItem => item.Species)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Breed)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Sex)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Size)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Color)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.FurLength)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DateOfBirth)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Age)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Spay_Neuter)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ShotsUTD)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.AtShelter)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |
-                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> |
-                <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>
-            </td>
-        </tr>
-        }
-    </tbody>
-</table>
--->
 
 <body>
     <div class="container-fluid mainBox">

@@ -82,6 +82,18 @@
                 <input type="submit" value="Create" class="btn btn-default" />
             </div>
         </form>
+        <form enctype="multipart/form-data" method="post">
+            <dl>
+                <dt>
+                    <label asp-for="FileUpload.FormFile"></label>
+                </dt>
+                <dd>
+                    <input asp-for="FileUpload.FormFile" type="file">
+                    <span asp-validation-for="FileUpload.FormFile"></span>
+                </dd>
+            </dl>
+            <input asp-page-handler="Upload" class="btn" type="submit" value="Upload" />
+        </form>
     </div>
 </div>
 
