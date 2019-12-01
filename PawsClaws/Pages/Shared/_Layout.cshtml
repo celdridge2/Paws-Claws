@@ -17,7 +17,7 @@
     </environment>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top">    
+    <nav class="navbar navbar-default navbar-fixed-top" style="font-family:Cambria; font-size:large;">    
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -32,15 +32,15 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li class="col-lg-2"><a asp-page="/Index">Home</a></li>
-                    <li class="col-lg-2"><a asp-page="/Pets/Index">Pets</a></li>
-                    <li class="col-lg-2">
-                        <a asp-page="/Index" id="homePic" class="navbar-brand mx-auto hide-me">
-                            <img src="~/images/Logo.jpg" height="75" width="75" class="img-circle"/>
+                    <li class="col-md-2"><a asp-page="/Index">Home <img src="~/images/PawPrint.png" width="30" height="30" style="padding:5px; padding-bottom:8px !important;" /></a></li>
+                    <li class="col-md-2"><a asp-page="/Pets/Index">Pets <img src="~/images/PawPrint.png" width="30" height="30" style="padding:5px; padding-bottom:8px !important;" /></a></li>
+                    <li class="col ">
+                        <a asp-page="/Index" id="homePic" class="navbar-brand mx-auto" style="position:center !important;">
+                            <img src="~/images/Logo.jpg" height="100" width="100" class="img-circle border-dark"/>
                         </a>
                     </li>
-                    <li class="col-lg-2"><a asp-page="/About">About</a></li>
-                    <li class="col-lg-2"><a asp-page="/Contact">Contact</a></li>
+                    <li class="col-md-2"><a asp-page="/About">About <img src="~/images/PawPrint.png" width="30" height="30" style="padding:5px; padding-bottom:8px !important;" /></a></li>
+                    <li class="col-md-2"><a asp-page="/Contact">Contact <img src="~/images/PawPrint.png" width="30" height="30" style="padding:5px; padding-bottom:8px !important;" /></a></li>
                 </ul>
             </div>
         </div>            
@@ -49,7 +49,7 @@
     <partial name="_CookieConsentPartial" />
 
     
-    <div class="container-fluid body-content h-100" style="margin-top:20px">
+    <div class="container-fluid body-content h-100" style="margin-top:25px">
         @RenderBody() 
         <hr />
         <footer>
