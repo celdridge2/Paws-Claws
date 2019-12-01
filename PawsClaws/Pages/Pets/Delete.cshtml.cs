@@ -5,18 +5,23 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
+using System.IO;
+
 using PawsClaws.Data;
 using PawsClaws.Models;
+using Microsoft.AspNetCore.Hosting;
 
 namespace PawsClaws.Pages.Pets
 {
     public class DeleteModel : PageModel
     {
         private readonly PawsClaws.Data.PawsClawsContext _context;
+        private readonly IHostingEnvironment _environment;
 
-        public DeleteModel(PawsClaws.Data.PawsClawsContext context)
+        public DeleteModel(PawsClaws.Data.PawsClawsContext context, IHostingEnvironment ihe)
         {
             _context = context;
+            _environment = ihe;
         }
 
         [BindProperty]
@@ -50,6 +55,15 @@ namespace PawsClaws.Pages.Pets
             if (Pet != null)
             {
                 _context.Pet.Remove(Pet);
+
+                string ImgDirPath = Path.Combine(_environment.WebRootPath, "images", Pet.ID + "/");
+                DirectoryInfo ImgDir = new DirectoryInfo(ImgDirPath);
+                foreach (FileInfo file in ImgDir.EnumerateFiles())
+                {
+                    file.Delete();
+                }
+                ImgDir.Delete();
+
                 await _context.SaveChangesAsync();
             }
 
