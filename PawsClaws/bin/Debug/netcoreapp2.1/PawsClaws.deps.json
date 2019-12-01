@@ -32,7 +32,8 @@
           "MySql.Data.EntityFramework": "8.0.18",
           "MySql.Data.EntityFrameworkCore": "8.0.18",
           "MySql.Data.EntityFrameworkCore.Design": "8.0.18",
-          "MySql.Web": "8.0.18"
+          "MySql.Web": "8.0.18",
+          "SixLabors.ImageSharp": "1.0.0-beta0007"
         },
         "runtime": {
           "PawsClaws.dll": {}
@@ -156,6 +157,7 @@
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
         }
       },
+      "Microsoft.Net.Compilers.Toolset/3.1.0": {},
       "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection": "2.1.1",
@@ -380,6 +382,36 @@
         },
         "compile": {
           "lib/netstandard1.0/Remotion.Linq.dll": {}
+        }
+      },
+      "SixLabors.Core/1.0.0-beta0008": {
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/SixLabors.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/SixLabors.Core.dll": {}
+        }
+      },
+      "SixLabors.ImageSharp/1.0.0-beta0007": {
+        "dependencies": {
+          "Microsoft.Net.Compilers.Toolset": "3.1.0",
+          "SixLabors.Core": "1.0.0-beta0008",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.1"
+        },
+        "runtime": {
+          "lib/netcoreapp2.1/SixLabors.ImageSharp.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp2.1/SixLabors.ImageSharp.dll": {}
         }
       },
       "SSH.NET/2016.1.0": {
@@ -3829,6 +3861,13 @@
       "path": "microsoft.entityframeworkcore.relational/2.1.2",
       "hashPath": "microsoft.entityframeworkcore.relational.2.1.2.nupkg.sha512"
     },
+    "Microsoft.Net.Compilers.Toolset/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/iwBIkmusIUlBrln8AbKpYIcSGnImCYUMFSC3QOpGuOmnle44w2ORyH8IFDi8rbQNKjDH9HBmtPML/kW3GuxyA==",
+      "path": "microsoft.net.compilers.toolset/3.1.0",
+      "hashPath": "microsoft.net.compilers.toolset.3.1.0.nupkg.sha512"
+    },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.10": {
       "type": "package",
       "serviceable": true,
@@ -3933,6 +3972,20 @@
       "sha512": "sha512-fK/76UmpC0FXBlGDFVPLJHQlDLYnGC+XY3eoDgCgbtrhi0vzbXDQ3n/IYHhqSKqXQfGw/u04A1drWs7rFVkRjw==",
       "path": "remotion.linq/2.2.0",
       "hashPath": "remotion.linq.2.2.0.nupkg.sha512"
+    },
+    "SixLabors.Core/1.0.0-beta0008": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rrKPDN107tVOh+mUoNh+kHELa7WfYZREPPbYdiKJ3Rd6dex/UgDWDGBOjPJn4BBhmts/VGuaXMXyfT/BwiuH2g==",
+      "path": "sixlabors.core/1.0.0-beta0008",
+      "hashPath": "sixlabors.core.1.0.0-beta0008.nupkg.sha512"
+    },
+    "SixLabors.ImageSharp/1.0.0-beta0007": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-R7BMm1MPyE3n4kSmTrdhB6iQmIZmSjBhnHG8mYrfi9t5CmIIgXhmGHHLZTZHa17Ka4b5bhUUqssAVEHDlDqnuQ==",
+      "path": "sixlabors.imagesharp/1.0.0-beta0007",
+      "hashPath": "sixlabors.imagesharp.1.0.0-beta0007.nupkg.sha512"
     },
     "SSH.NET/2016.1.0": {
       "type": "package",

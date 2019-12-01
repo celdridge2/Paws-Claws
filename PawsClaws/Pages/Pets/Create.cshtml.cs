@@ -12,9 +12,13 @@ using System.ComponentModel.DataAnnotations;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
+using SixLabors.ImageSharp;
+using SixLabors.ImageSharp.PixelFormats;
+using SixLabors.ImageSharp.Processing;
 
 using PawsClaws.Data;
 using PawsClaws.Models;
+
 
 namespace PawsClaws.Pages.Pets
 {
@@ -52,12 +56,14 @@ namespace PawsClaws.Pages.Pets
             if (HttpContext.Request.Form.Files != null)
             {
                 var fileName = "";
-                string PathDB = "";
 
                 var files = HttpContext.Request.Form.Files;
                 int i = 0;
 
-                foreach(var file in files)
+                var currentDir = Path.Combine(_environment.WebRootPath, "images", "" + Pet.ID);
+                Directory.CreateDirectory(currentDir);
+
+                foreach (var file in files)
                 {
                     if (file.Length > 0)
                     {
@@ -66,17 +72,21 @@ namespace PawsClaws.Pages.Pets
 
                         newFileName = i++ + FileExtension;
 
-                        fileName = Path.Combine(_environment.WebRootPath, "images", "" + Pet.ID) + $@"\{newFileName}";
+                        fileName = currentDir + $@"\{newFileName}";
 
-                        PathDB = "images/" + Pet.ID + "/" + newFileName;
-
-                        Directory.CreateDirectory(Path.GetDirectoryName(fileName));
                         using (FileStream fs = System.IO.File.Create(fileName))
                         {
                             file.CopyTo(fs);
                             fs.Flush();
                         }
                     }
+                }
+
+                // Create thumbnail
+                using (Image img = Image.Load(currentDir + "/0.jpg"))
+                {
+                    img.Mutate(x => x.Resize(200, 125));
+                    img.Save(currentDir + "/thumb.jpg");
                 }
             }
 
