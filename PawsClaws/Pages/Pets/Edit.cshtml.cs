@@ -1,10 +1,13 @@
 ﻿using System;
+using System.IO;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using PawsClaws.Data;
 using PawsClaws.Models;
@@ -14,10 +17,13 @@ namespace PawsClaws.Pages.Pets
     public class EditModel : PageModel
     {
         private readonly PawsClaws.Data.PawsClawsContext _context;
+        private readonly IHostingEnvironment _environment;
+        public ArrayList Images = new ArrayList();
 
-        public EditModel(PawsClaws.Data.PawsClawsContext context)
+        public EditModel(PawsClaws.Data.PawsClawsContext context, IHostingEnvironment ihe)
         {
             _context = context;
+            _environment = ihe;
         }
 
         [BindProperty]
@@ -36,6 +42,10 @@ namespace PawsClaws.Pages.Pets
             {
                 return NotFound();
             }
+            
+            GetPetImages();
+
+
             return Page();
         }
 
@@ -70,6 +80,21 @@ namespace PawsClaws.Pages.Pets
         private bool PetExists(int id)
         {
             return _context.Pet.Any(e => e.ID == id);
+        }
+
+        private void GetPetImages()
+        {
+            DirectoryInfo ImgDir = new DirectoryInfo(Path.Combine(_environment.WebRootPath, "images", Pet.ID + "/"));
+            foreach (FileInfo f in ImgDir.EnumerateFiles())
+            {
+                if (!f.FullName.Contains("thumb"))
+                    Images.Add(f.FullName);
+            }
+        }
+
+        private void DeleteImage()
+        {
+
         }
     }
 }
