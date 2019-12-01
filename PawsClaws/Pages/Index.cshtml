@@ -3,66 +3,113 @@
 @{
     ViewData["Title"] = "Home page";
 }
-    <div class="container-fluid">
+    <div class="container" style="width:900px !important; padding-top:15px !important; padding:0;">
         <div class="row">
-                    <div id="myCarousel" class="carousel slide center-block" data-ride="carousel" data-interval="6000" style="width:900px">
-                        <ol class="carousel-indicators">
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                            <li data-target="#myCarousel" data-slide-to="1"></li>
-                            <li data-target="#myCarousel" data-slide-to="2"></li>
-                        </ol>
-                        <div class="carousel-inner" role="listbox" style="height: 600px">
-                            <div class="item active">
-                                <a href="https://www.facebook.com/nicholaspethaven/"><img src="~/images/HappyDogLogo.jpg" alt="DogLogo" class="img-responsive" /></a>
-                            </div>
-                            <div class="item">
-                                <a asp-page="/Contact"><img src="~/images/CatLogo.jpg" alt="NicPic" class="img-responsive" /></a>
-                                <div class="carousel-caption" role="option">
-                                    <p>
-                                        Click here to contact us
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <a asp-page="/About"><img src="~/images/OurStoryPic.jpg" alt="About page" class="img-responsive" /></a>
-                                <div class="carousel-caption" role="option">
-                                    <p>
-                                        Click here to learn more
-                                    </p>
-                                </div>
-                            </div>
-                        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+            <div id="myCarousel" class="carousel slide center-block" data-ride="carousel" data-interval="6000" style="width:900px">
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox" style="height: 600px">
+                    <div class="item active">
+                        <a href="https://www.facebook.com/nicholaspethaven/"><img src="~/images/HappyDogLogo.jpg" alt="DogLogo" class="img-responsive" /></a>
                     </div>
+                    <div class="item">
+                        <a asp-page="/Contact"><img src="~/images/CatLogo.jpg" alt="NicPic" class="img-responsive" /></a>
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Click here to contact us
+                            </p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <a asp-page="/About"><img src="~/images/OurStoryPic.jpg" alt="About page" class="img-responsive" /></a>
+                        <div class="carousel-caption" role="option">
+                            <p>
+                                Click here to learn more
+                            </p>
+                        </div>
+                    </div>
+                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
         </div>
-            <div class="row">
-                <div class="container" style="width:900px !important; padding-top:15px !important; padding:0;">
-                    <div class="col-md-6" style="padding-left:0px;">
-                        <div class="card">
-                            <img src="~/images/cat.jpg" class="card-img-top" style="width:420px;">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
+        <div class="row center-block" style="margin-left:0px;margin-right:0px;">
+            <div class="flip-card col-sm-6">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="~/images/adopt.jpg" alt="Avatar" style="width:450px;height:400px;">
                     </div>
-                    <div class="col-md-6" style="padding-left:0px;">
-                        <div class="card">
-                            <img src="..." class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                <a href="#" class="btn btn-primary">Go somewhere</a>
-                            </div>
-                        </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
                     </div>
                 </div>
             </div>
+            <div class="flip-card col-sm-6">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="~/images/foster.jpg" alt="Avatar" style="width:450px;height:400px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row center-block" style="margin-left:0px;margin-right:0px;">
+            <div class="flip-card col-sm-6">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="~/images/Volunteer.jpg" alt="Avatar" style="width:450px;height:400px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flip-card col-sm-6">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="~/images/Donate.jpg" alt="Avatar" style="width:450px;height:400px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row center-block" style="margin-left:0px;margin-right:0px;">
+            <div class="flip-card col-sm-6" style="height:300px;">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front">
+                        <img src="~/images/HowToHelp.jpg" class="card-img-top" style="width:450px;">
+                    </div>
+                    <div class="flip-card-back">
+                        <h1>John Doe</h1>
+                        <p>Architect & Engineer</p>
+                        <p>We love that guy</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" style="padding:0px;">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.669404186735!2d-95.35014608725916!3d32.29386518112055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8649cbac753c59e1%3A0x59647d973ed3e462!2sNicholas%20Pet%20Haven!5e0!3m2!1sen!2sus!4v1575229887193!5m2!1sen!2sus" width="450" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+        </div>
     </div>
+                       
