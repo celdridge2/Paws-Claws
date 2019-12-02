@@ -216,3 +216,5 @@ C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreap
 C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Index.cshtml.g.cs
 C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Login.cshtml.g.cs
 C:\Users\Justin Carnes\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Logout.cshtml.g.cs
+C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Login.g.cshtml.cs
+C:\Users\Charles\Source\Repos\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Logout.g.cshtml.cs
