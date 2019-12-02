@@ -1,0 +1,13 @@
+﻿@page
+@model PawsClaws.Pages.LogoutModel
+@{
+    ViewData["Title"] = "Logout";
+}
+<body>
+    <form method="get">
+        <input type="hidden" value="Logout" />
+        @Html.AntiForgeryToken()
+    </form>
+</body>
+
+
