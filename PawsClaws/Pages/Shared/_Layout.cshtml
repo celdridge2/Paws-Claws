@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - PawsClaws</title>
+    <title>@ViewData["Title"] - Nicholas Pet Haven</title>
 
     <environment include="Development">
         <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
@@ -33,7 +33,7 @@
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
                     <li class="col-md-2"><a asp-page="/Index">Home <img src="~/images/PawPrint.png" width="30" height="30" style="padding:5px; padding-bottom:8px !important;" /></a></li>
-                    <li class="col-md-2"><a asp-page="/Pets/Index">Pets <img src="~/images/PawPrint.png" width="30" height="30" style="padding:5px; padding-bottom:8px !important;" /></a></li>
+                    <li class="col-md-2"><a asp-page="/Pets/Index" asp-route-CurrentPage="1">Pets <img src="~/images/PawPrint.png" width="30" height="30" style="padding:5px; padding-bottom:8px !important;" /></a></li>
                     <li class="col ">
                         <a asp-page="/Index" id="homePic" class="navbar-brand mx-auto" style="position:center !important;">
                             <img src="~/images/Logo.jpg" height="100" width="100" class="img-circle border-dark"/>
