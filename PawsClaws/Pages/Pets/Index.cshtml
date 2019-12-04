@@ -5,32 +5,9 @@
     ViewData["Title"] = "Pets";
 }
 
-<head>
-    <style type="text/css">
-        #mainBox {
-            display: table;
-            background-color: #7d7d7d;
-            border: 1px solid #000000;
-            height: 100%;
-            width: 100%;
-            margin: auto;
-            padding: 5% 5% 5% 7%;
-            align-items: center;
-        }
-            #mainBox > div {
-                display: table-cell;
-                background-color: aliceblue;
-                border: 1px solid black;
-                height: 205px;
-                width: 270px;
-                padding: 10px;
-                text-align: center;
-            }
-    </style>
-</head>
 
-<body>
-    <h4 style="text-align: center; word-spacing: 40px; margin-top: 3%;">
+<body style="padding: 3% 10% 0 10%">
+    <h4 style="text-align: center; word-spacing: 40px; margin-top: 66px;">
         @if (string.IsNullOrEmpty(Model.Species))
         {
             <span style="text-decoration:underline">All</span>
@@ -70,16 +47,19 @@
             <a href="~/Login">Login</a>
         }
     </p>
-    <div class="container-fluid" id="mainBox">
+    <div class="row">
         @foreach (var item in Model.Pet)
         {
-            <div class="col-lg-6 col-md-4 col-sm-2 col-xs-1">
-                <div class="align-top">
-                    <a href="/Pets/Details/@item.ID"><img src="~/images/@item.ID/thumb.jpg" /> </a>
+            <div class="card col-lg-2 col-med-4 col-sm-6" style="border: 1px solid black; background-color: aliceblue; padding: 15px 30px 15px 30px; width: 253.5px !important; height: 251px !important">
+                <div class="card-img-top text-center">
+                    <a href="/Pets/Details/@item.ID"><img src="~/images/@item.ID/thumb.jpg" style="align-content:center" /> </a>
                 </div>
-                <div class="align-bottom">
-                    <a href="/Pets/Details/@item.ID">@Html.DisplayFor(modelItem => item.Name)</a> :: @Html.DisplayFor(modelItem => item.Breed)<br />
-                    @Html.DisplayFor(modelItem => item.Sex) :: @Html.DisplayFor(modelItem => item.Age)
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size:20px; font-weight:bold"><a href="/Pets/Details/@item.ID">@Html.DisplayFor(modelItem => item.Name)</a> </h5>
+                    <p class="card-text" style="font-size:15px">
+                        @Html.DisplayFor(modelItem => item.Breed)<br />
+                        @Html.DisplayFor(modelItem => item.Sex)
+                    </p>
                 </div>
             </div>
         }

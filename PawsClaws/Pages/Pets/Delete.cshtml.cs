@@ -10,6 +10,7 @@ using System.IO;
 using PawsClaws.Data;
 using PawsClaws.Models;
 using Microsoft.AspNetCore.Hosting;
+using System.Collections;
 
 namespace PawsClaws.Pages.Pets
 {
@@ -17,6 +18,7 @@ namespace PawsClaws.Pages.Pets
     {
         private readonly PawsClaws.Data.PawsClawsContext _context;
         private readonly IHostingEnvironment _environment;
+        public readonly ArrayList Images = new ArrayList();
 
         public DeleteModel(PawsClaws.Data.PawsClawsContext context, IHostingEnvironment ihe)
         {
@@ -40,6 +42,7 @@ namespace PawsClaws.Pages.Pets
             {
                 return NotFound();
             }
+            GetPetImages();
             return Page();
         }
 
@@ -67,7 +70,17 @@ namespace PawsClaws.Pages.Pets
                 await _context.SaveChangesAsync();
             }
 
-            return RedirectToPage("./Index");
+            return RedirectToPage("./Index", new { CurrentPage = 1 });
+        }
+
+        private void GetPetImages()
+        {
+            DirectoryInfo ImgDir = new DirectoryInfo(Path.Combine(_environment.WebRootPath, "images", Pet.ID + "/"));
+            foreach (FileInfo f in ImgDir.EnumerateFiles())
+            {
+                if (!f.FullName.Contains("thumb"))
+                    Images.Add(f.FullName);
+            }
         }
     }
 }
