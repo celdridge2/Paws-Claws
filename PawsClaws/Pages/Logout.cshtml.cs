@@ -13,7 +13,7 @@ namespace PawsClaws.Pages
         public async Task<IActionResult> OnGetAsync()
         {
             HttpContext.SignOutAsync();
-            return RedirectToPage("Pets/Index");
+            return RedirectToPage("Pets/Index", new { CurrentPage = 1 });
         }
     }
 }
