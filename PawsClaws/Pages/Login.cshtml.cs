@@ -35,7 +35,7 @@ namespace PawsClaws.Pages
                 identity.AddClaim(new Claim(ClaimTypes.Name, loginData.Username));
                 var principal = new ClaimsPrincipal(identity);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, new AuthenticationProperties { IsPersistent = loginData.RememberMe });
-                return RedirectToPage("Pets/Index");
+                return RedirectToPage("Pets/Index", new { CurrentPage = 1 });
             }
             else
             {
