@@ -39,7 +39,7 @@ body {
         display: none;
     }
     .hide-me {
-        display: none;
+        display: none !important;
     }
 
     .centercontent {
