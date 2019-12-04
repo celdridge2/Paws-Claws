@@ -6,30 +6,29 @@
 }
 
 <style>
-    #row{
-        display:flex;
-        flex-direction:row;
-        justify-content:space-around;
+    #row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
     }
-    #left{
-        display:flex;
-        flex-direction:column;
+
+    #left {
+        display: flex;
+        flex-direction: column;
         width: 45%;
-        justify-content: center;
+        padding: 2%
     }
-    #right{
-        display:flex;
-        flex-direction:column;
+
+    #right {
+        display: flex;
+        flex-direction: column;
         width: 45%;
         justify-content: center;
     }
 </style>
 
-<h2>Edit</h2>
 
-<h4>Pet</h4>
-<hr />
-<div class="row" id="row">
+<div class="row" id="row" style="padding: 3% 10% 0% 10%">
     <div id="left">
         <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" style="width:100% !important;">
             <ol class="carousel-indicators">
@@ -84,6 +83,10 @@
 
     </div>
     <div class="col-md-4" id="right">
+        <div>
+            <h2>Edit Pet Info</h2>
+            <a asp-page="Index" asp-route-CurrentPage="1">Back to List</a>
+        </div>
         <form method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Pet.ID" />
@@ -159,9 +162,6 @@
     </div>
 </div>
 
-<div>
-    <a asp-page="./Index">Back to List</a>
-</div>
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
