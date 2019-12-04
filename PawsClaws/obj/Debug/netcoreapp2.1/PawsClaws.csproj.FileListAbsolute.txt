@@ -154,7 +154,6 @@ C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.cshtml.g.cs
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Error.cshtml.g.cs
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Index.cshtml.g.cs
-C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets.cshtml.g.cs
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.cshtml.g.cs
 C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.cshtml.g.cs
@@ -214,3 +213,8 @@ C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreap
 C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Details.cshtml.g.cs
 C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Edit.cshtml.g.cs
 C:\Users\Justin\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Index.cshtml.g.cs
+C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Create.cshtml.g.cs
+C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Delete.cshtml.g.cs
+C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Details.cshtml.g.cs
+C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Edit.cshtml.g.cs
+C:\Users\danie\Source\Repos\celdridge2\Paws-Claws\PawsClaws\obj\Debug\netcoreapp2.1\Razor\Pages\Pets\Index.cshtml.g.cs
