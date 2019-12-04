@@ -25,8 +25,8 @@
     }
 </style>
 
-<h2>Details</h2>
-<div id="row"> 
+
+<div id="row" style="padding: 5%"> 
     <div id="left">
             <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" style="width:100% !important;">
                 <ol class="carousel-indicators">
@@ -77,9 +77,18 @@
                     <span class="sr-only">Next</span>
                 </a>
         </div>
+        <div style="text-align:center">
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-page="./Delete" asp-route-id="@Model.Pet.ID">Delete</a>
+                <span> | </span>
+                <a asp-page="./Edit" asp-route-id="@Model.Pet.ID">Edit</a>
+            }
+
+            
+        </div>
     </div>
-    <div id="right">
-        <hr />
+    <div id="right" style="font-size:15px;">
         <dl class="dl-horizontal">
             <dt>
                 @Html.DisplayNameFor(model => model.Pet.Name)
@@ -160,11 +169,11 @@
                 @Html.DisplayFor(model => model.Pet.Description)
             </dd>
         </dl>
+        <hr />
+        <a href="https://nphadmin.wufoo.com/forms/q191z0tm1osxnnx/" style="text-align:center; font-size: 20px">Apply to adopt!</a>
+        <a href="https://nphadmin.wufoo.com/forms/w1pgzcbk0adtw0g/" style="text-align:center; font-size: 20px">Apply to foster!</a>
+        <a asp-page="./Index" asp-route-CurrentPage="1" style="text-align:center">Back to List</a>
     </div>
 </div>
 
-<div>
-    <a asp-page="./Delete" asp-route-id="@Model.Pet.ID">Delete</a> |
-    <a asp-page="./Edit" asp-route-id="@Model.Pet.ID">Edit</a> |
-    <a asp-page="./Index">Back to List</a>
-</div>
+

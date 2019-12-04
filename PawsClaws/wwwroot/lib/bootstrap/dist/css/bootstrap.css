@@ -1670,7 +1670,7 @@ pre code {
   position: relative;
   min-height: 1px;
   padding-right: 0px;
-  padding-left: 0px;
+  padding-left: 0Fpx;
 }
 .col-xs-1,
 .col-xs-2,
@@ -4590,7 +4590,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   color: #777;
 }
 .navbar-default .navbar-nav > li > a {
-  color: black;
+  color: white;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {

@@ -39,7 +39,11 @@ body {
         display: none;
     }
     .hide-me {
-        display: none;
+        display: none !important;
+    }
+
+    .centercontent {
+        margin-left:225px !important;
     }
 }
 
@@ -83,7 +87,7 @@ body {
 
 /* Style the back side */
 .flip-card-back {
-    background-color: red;
+    background-color: #e4333b;
     color: white;
     transform: rotateY(180deg);
 }
