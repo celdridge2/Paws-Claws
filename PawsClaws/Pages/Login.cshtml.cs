@@ -19,7 +19,7 @@ namespace PawsClaws.Pages
 
         private string TrueHash = "49CUNrfTtTKX1YGsb3pIj550JVAun08s4wFNjCRbAfg=";
 
-        public async Task<PageResult> OnPostAsync()
+        public async Task<RedirectToPageResult> OnPostAsync()
         {
             loginData.HashPass();
             if (ModelState.IsValid)
@@ -28,20 +28,19 @@ namespace PawsClaws.Pages
                 if (!isValid)
                 {
                     ModelState.AddModelError("", "Username or Password is invalid!");
-                    return Page();
+                    return RedirectToPage("Login");
                 }
                 var identity = new ClaimsIdentity(CookieAuthenticationDefaults.AuthenticationScheme, ClaimTypes.Name, ClaimTypes.Role);
                 identity.AddClaim(new Claim(ClaimTypes.NameIdentifier, loginData.Username));
                 identity.AddClaim(new Claim(ClaimTypes.Name, loginData.Username));
                 var principal = new ClaimsPrincipal(identity);
                 await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, principal, new AuthenticationProperties { IsPersistent = loginData.RememberMe });
-                RedirectToPage("Index");
-                return Page();
+                return RedirectToPage("Pets/Index");
             }
             else
             {
                 ModelState.AddModelError("", "Username and Password cannot be left blank.");
-                return Page();
+                return RedirectToPage("Login");
             }
         }
 
