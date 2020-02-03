@@ -27,142 +27,152 @@
     }
 </style>
 
-
-<div class="row" id="row" style="padding: 3% 10% 0% 10%">
-    <div id="left">
-        <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="5000" style="width:100% !important;">
-            <ol class="carousel-indicators">
-                @{
-                    int i = 0;
-                    foreach (var f in Model.Images)
-                    {
-                        if (i == 0)
-                        {
-                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        }
-                        else
-                        {
-                            <li data-target="#myCarousel" data-slide-to="@i"></li>
-
-                        }
-                        i++;
-                    }
+<body>
+    <div class="row" id="row" style="padding: 3% 10% 0% 10%">
+        <div id="left">
+            @{
+                foreach (var f in Model.Images)
+                {
+                    String filename = f.ToString();
+                    filename = filename.Substring(filename.IndexOf("images"));
+                    <div>
+                        <img class="pet-img" src="~/@filename" style="height:100%; width:100%;" />
+                        <div class="delete-overlay" style="display:none; align-self:center">
+                            <span>Would you like to delete this image?</span>
+                            <form asp-page-handler="DeleteImage" method="post">
+                                <button class="btn btn-default">Yes</button>
+                                <input type="hidden" name="filename" value="@filename" />
+                            </form>
+                            <button class="btn delete-no">No</button>
+                        </div>
+                    </div>
                 }
-            </ol>
-            <div class="carousel-inner" role="listbox" style="height: 100% !important;">
-                @{
-                    i = 0;
-                    foreach (var f in Model.Images)
-                    {
-                        if (i == 0)
-                        {
-                            <div class="item active">
-                                <img src="~/images/@Model.Pet.ID/@(i + ".jpg")" class="img-responsive" style="height:100%; width:100%;" />
-                            </div>
-                        }
-                        else
-                        {
-                            <div class="item">
-                                <img src="~/images/@Model.Pet.ID/@(i + ".jpg")" class="img-responsive" style="height:100%; width:100%;" />
-                            </div>
-                        }
-                        i++;
-                    }
-                }
+            }
 
-            </div>
-            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
+        <div class="col-md-4" id="right">
+            <div>
+                <h2>Edit Pet Info</h2>
+                <a asp-page="Index" asp-route-CurrentPage="1">Back to List</a>
+            </div>
+            <form method="post">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <input type="hidden" asp-for="Pet.ID" />
+                <div class="form-group">
+                    <label asp-for="Pet.Name" class="control-label"></label>
+                    <input asp-for="Pet.Name" class="form-control" />
+                    <span asp-validation-for="Pet.Name" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.AtShelter" class="control-label"></label>
+                    <input asp-for="Pet.AtShelter" class="form-control" />
+                    <span asp-validation-for="Pet.AtShelter" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Species" class="control-label"></label>
+                    <input asp-for="Pet.Species" class="form-control" />
+                    <span asp-validation-for="Pet.Species" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Breed" class="control-label"></label>
+                    <input asp-for="Pet.Breed" class="form-control" />
+                    <span asp-validation-for="Pet.Breed" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Sex" class="control-label"></label>
+                    <input asp-for="Pet.Sex" class="form-control" />
+                    <span asp-validation-for="Pet.Sex" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Size" class="control-label"></label>
+                    <input asp-for="Pet.Size" class="form-control" />
+                    <span asp-validation-for="Pet.Size" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Spay_Neuter" class="control-label"></label>
+                    <input asp-for="Pet.Spay_Neuter" class="form-control" />
+                    <span asp-validation-for="Pet.Spay_Neuter" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.ShotsUTD" class="control-label"></label>
+                    <input asp-for="Pet.ShotsUTD" class="form-control" />
+                    <span asp-validation-for="Pet.ShotsUTD" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Color" class="control-label"></label>
+                    <input asp-for="Pet.Color" class="form-control" />
+                    <span asp-validation-for="Pet.Color" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.FurLength" class="control-label"></label>
+                    <input asp-for="Pet.FurLength" class="form-control" />
+                    <span asp-validation-for="Pet.FurLength" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.DateOfBirth" class="control-label"></label>
+                    <input asp-for="Pet.DateOfBirth" class="form-control" />
+                    <span asp-validation-for="Pet.DateOfBirth" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Age" class="control-label"></label>
+                    <input asp-for="Pet.Age" class="form-control" />
+                    <span asp-validation-for="Pet.Age" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="Pet.Description" class="control-label"></label>
+                    <input asp-for="Pet.Description" class="form-control" />
+                    <span asp-validation-for="Pet.Description" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Save" class="btn btn-default" />
+                </div>
+            </form>
+        </div>
+    </div>
 
-    </div>
-    <div class="col-md-4" id="right">
-        <div>
-            <h2>Edit Pet Info</h2>
-            <a asp-page="Index" asp-route-CurrentPage="1">Back to List</a>
-        </div>
-        <form method="post">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="Pet.ID" />
-            <div class="form-group">
-                <label asp-for="Pet.Name" class="control-label"></label>
-                <input asp-for="Pet.Name" class="form-control" />
-                <span asp-validation-for="Pet.Name" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.AtShelter" class="control-label"></label>
-                <input asp-for="Pet.AtShelter" class="form-control" />
-                <span asp-validation-for="Pet.AtShelter" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Species" class="control-label"></label>
-                <input asp-for="Pet.Species" class="form-control" />
-                <span asp-validation-for="Pet.Species" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Breed" class="control-label"></label>
-                <input asp-for="Pet.Breed" class="form-control" />
-                <span asp-validation-for="Pet.Breed" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Sex" class="control-label"></label>
-                <input asp-for="Pet.Sex" class="form-control" />
-                <span asp-validation-for="Pet.Sex" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Size" class="control-label"></label>
-                <input asp-for="Pet.Size" class="form-control" />
-                <span asp-validation-for="Pet.Size" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Spay_Neuter" class="control-label"></label>
-                <input asp-for="Pet.Spay_Neuter" class="form-control" />
-                <span asp-validation-for="Pet.Spay_Neuter" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.ShotsUTD" class="control-label"></label>
-                <input asp-for="Pet.ShotsUTD" class="form-control" />
-                <span asp-validation-for="Pet.ShotsUTD" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Color" class="control-label"></label>
-                <input asp-for="Pet.Color" class="form-control" />
-                <span asp-validation-for="Pet.Color" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.FurLength" class="control-label"></label>
-                <input asp-for="Pet.FurLength" class="form-control" />
-                <span asp-validation-for="Pet.FurLength" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.DateOfBirth" class="control-label"></label>
-                <input asp-for="Pet.DateOfBirth" class="form-control" />
-                <span asp-validation-for="Pet.DateOfBirth" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Age" class="control-label"></label>
-                <input asp-for="Pet.Age" class="form-control" />
-                <span asp-validation-for="Pet.Age" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Pet.Description" class="control-label"></label>
-                <input asp-for="Pet.Description" class="form-control" />
-                <span asp-validation-for="Pet.Description" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Save" class="btn btn-default" />
-            </div>
-        </form>
-    </div>
-</div>
+</body>
+
 
 
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+
+    <script type="text/javascript">
+        // Because the 'pet-img', 'delete-overlay', and 'delete-no' objects are created in a foreach loop,
+        // there are going to be multiple instances. They all need these functions applied
+        var imgs = document.getElementsByClassName('pet-img');
+        var dels = document.getElementsByClassName('delete-overlay');
+
+        var toggleDeleteDialogs = function (index)
+        {
+            return function ()
+            {
+                if (dels[index].style.display == "none")
+                    dels[index].style.display = "contents";
+                else dels[index].style.display = "none";
+                for (var k = 0; k < imgs.length; k++)
+                    if (k != index && dels[k].style.display != "none")
+                        dels[k].style.display = "none";
+            }
+        }
+
+        var cancelDelete = function (index)
+        {
+            return function ()
+            {
+                dels[index].style.display = "none";
+            }
+        }
+
+        for (var i = 0; i < imgs.length; i++)
+        {
+            imgs[i].onclick = toggleDeleteDialogs(i);
+        }
+
+        var nos = document.getElementsByClassName("delete-no");
+        for (var i = 0; i < nos.length; i++)
+        {
+            nos[i].onclick = cancelDelete(i);
+        }
+    </script>
 }

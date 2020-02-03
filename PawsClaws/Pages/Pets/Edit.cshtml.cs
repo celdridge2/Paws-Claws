@@ -2,6 +2,7 @@
 using System.IO;
 using System.Collections;
 using System.Collections.Generic;
+using System.Web;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -92,9 +93,16 @@ namespace PawsClaws.Pages.Pets
             }
         }
 
-        private void DeleteImage()
+        public async Task<IActionResult> OnPostDeleteImage(String filename)
         {
+            FileInfo img = new FileInfo(Path.Combine(_environment.WebRootPath, filename));
+            img.Delete();
+            foreach (String x in Images)
+                if (x.Contains(filename))
+                    Images.Remove(x);
+            await _context.SaveChangesAsync();
 
+            return RedirectToPage("./Index", new { CurrentPage = 1});
         }
     }
 }
