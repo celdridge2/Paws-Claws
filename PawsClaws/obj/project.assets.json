@@ -13690,19 +13690,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Justin Carnes\\.nuget\\packages\\": {}
+    "C:\\Users\\haora\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "projectUniqueName": "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
       "projectName": "PawsClaws",
-      "projectPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
-      "packagesPath": "C:\\Users\\Justin Carnes\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Justin Carnes\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
+      "projectPath": "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+      "packagesPath": "C:\\Users\\haora\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Justin Carnes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\haora\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -13782,7 +13782,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   },

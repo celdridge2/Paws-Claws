@@ -16,6 +16,6 @@
     <WebStackScaffolding_DbContextTypeFullName>PawsClaws.Data.PawsClawsContext</WebStackScaffolding_DbContextTypeFullName>
     <RazorPage_SelectedScaffolderID>Microsoft.WebTools.Scaffolding.Core.RazorPageScaffolder</RazorPage_SelectedScaffolderID>
     <RazorPage_SelectedScaffolderCategoryPath>root/RazorPage</RazorPage_SelectedScaffolderCategoryPath>
-    <NameOfLastUsedPublishProfile>PawsClawsDemo - Web Deploy</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>PawsClaws - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

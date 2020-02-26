@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA2oncX7sab0af66pch0+cfAAAAAACAAAAAAAQZgAAAAEAACAAAACWz+L6vEnxGL5JCMmavkCujDikXWaEIuZJbVtY3+GxZQAAAAAOgAAAAAIAACAAAAB0zUi8gmg7BGPqv/FOlE0lGW7jUx1PoUexhfeGJIbTMDAAAABueU7f4l99Y6Z+ZAOT539pXSi2oORDDqkWyH1MiGehm9uxIkBMBHyJ75rsoXsOmhVAAAAAHA5l/8QKRT6ckrO2hgjtDRzu3mxCWoW5Y4C9nqL124Wzfgc3zNr9P1aTPPm72BKcBBPSdJGYKXsTDDnKM55TGw==</EncryptedPassword>
+    <_PublishTargetUrl>ftp://192.185.10.10/httpdocs</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="appsettings.Development.json">
+      <publishTime>01/30/2020 23:00:42</publishTime>
+    </File>
+    <File Include="appsettings.json">
+      <publishTime>02/08/2020 12:28:25</publishTime>
+    </File>
+    <File Include="BouncyCastle.Crypto.dll">
+      <publishTime>05/28/2018 16:12:20</publishTime>
+    </File>
+    <File Include="dotnet-aspnet-codegenerator-design.dll">
+      <publishTime>09/24/2019 19:57:52</publishTime>
+    </File>
+    <File Include="Google.Protobuf.dll">
+      <publishTime>08/10/2018 18:51:54</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
+      <publishTime>04/30/2018 16:29:02</publishTime>
+    </File>
+    <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
+      <publishTime>04/30/2018 16:29:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Abstractions.dll">
+      <publishTime>07/26/2018 18:17:04</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.dll">
+      <publishTime>07/26/2018 18:17:06</publishTime>
+    </File>
+    <File Include="Microsoft.EntityFrameworkCore.Relational.dll">
+      <publishTime>07/26/2018 18:17:00</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
+      <publishTime>09/24/2019 19:57:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
+      <publishTime>09/24/2019 19:57:24</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
+      <publishTime>09/24/2019 19:57:28</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
+      <publishTime>09/24/2019 19:57:26</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
+      <publishTime>09/24/2019 19:57:22</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
+      <publishTime>09/24/2019 19:57:20</publishTime>
+    </File>
+    <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
+      <publishTime>09/24/2019 19:57:30</publishTime>
+    </File>
+    <File Include="MySql.Data.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="MySql.Data.EntityFramework.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="MySql.Data.EntityFrameworkCore.Design.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="MySql.Data.EntityFrameworkCore.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="MySql.Web.dll">
+      <publishTime>01/01/1980 00:00:00</publishTime>
+    </File>
+    <File Include="NuGet.Frameworks.dll">
+      <publishTime>04/24/2018 21:27:10</publishTime>
+    </File>
+    <File Include="PawsClaws.deps.json">
+      <publishTime>02/25/2020 19:07:17</publishTime>
+    </File>
+    <File Include="PawsClaws.dll">
+      <publishTime>02/25/2020 19:07:11</publishTime>
+    </File>
+    <File Include="PawsClaws.pdb">
+      <publishTime>02/25/2020 19:07:11</publishTime>
+    </File>
+    <File Include="PawsClaws.runtimeconfig.json">
+      <publishTime>02/25/2020 19:07:14</publishTime>
+    </File>
+    <File Include="PawsClaws.Views.dll">
+      <publishTime>02/25/2020 19:07:14</publishTime>
+    </File>
+    <File Include="PawsClaws.Views.pdb">
+      <publishTime>02/25/2020 19:07:14</publishTime>
+    </File>
+    <File Include="Remotion.Linq.dll">
+      <publishTime>02/06/2018 22:25:00</publishTime>
+    </File>
+    <File Include="Renci.SshNet.dll">
+      <publishTime>10/16/2017 20:53:06</publishTime>
+    </File>
+    <File Include="runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="SixLabors.Core.dll">
+      <publishTime>09/01/2019 11:39:54</publishTime>
+    </File>
+    <File Include="SixLabors.ImageSharp.dll">
+      <publishTime>09/04/2019 07:34:42</publishTime>
+    </File>
+    <File Include="SshNet.Security.Cryptography.dll">
+      <publishTime>07/14/2016 20:47:20</publishTime>
+    </File>
+    <File Include="System.Composition.AttributedModel.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Convention.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Hosting.dll">
+      <publishTime>11/05/2016 04:55:42</publishTime>
+    </File>
+    <File Include="System.Composition.Runtime.dll">
+      <publishTime>11/05/2016 04:55:44</publishTime>
+    </File>
+    <File Include="System.Composition.TypedParts.dll">
+      <publishTime>11/05/2016 04:55:46</publishTime>
+    </File>
+    <File Include="System.Configuration.ConfigurationManager.dll">
+      <publishTime>11/20/2017 18:09:04</publishTime>
+    </File>
+    <File Include="System.Interactive.Async.dll">
+      <publishTime>11/21/2016 14:05:54</publishTime>
+    </File>
+    <File Include="System.Resources.Extensions.dll">
+      <publishTime>08/05/2019 16:24:12</publishTime>
+    </File>
+    <File Include="System.Security.Cryptography.ProtectedData.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="System.Xml.XPath.XmlDocument.dll">
+      <publishTime>06/11/2016 23:15:02</publishTime>
+    </File>
+    <File Include="web.config">
+      <publishTime>02/25/2020 19:07:17</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/favicon.ico">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/30/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/30/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/31/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/31/1.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/31/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/32/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/32/2.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/32/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/33/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/33/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/34/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/34/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/35/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/35/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/36/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/36/1.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/36/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/38/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/38/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/39/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/39/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/40/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/40/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/41/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/41/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/42/0.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/42/thumb.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/43/0.jpg">
+      <publishTime>02/08/2020 12:28:25</publishTime>
+    </File>
+    <File Include="wwwroot/images/43/1.jpg">
+      <publishTime>02/08/2020 12:28:25</publishTime>
+    </File>
+    <File Include="wwwroot/images/43/thumb.jpg">
+      <publishTime>02/08/2020 12:28:25</publishTime>
+    </File>
+    <File Include="wwwroot/images/adopt.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/adopt2.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/background.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner1.svg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner2.svg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/banner3.svg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Cat.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/CatLogo.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/dog.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/DogFace.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/DogLogo.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Donate.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/donate2.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/facebookIcon.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/foster.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/foster2.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/free-png-flat-facebook-logo-png-icon-circle-png-images-facebook-logo-png-round-11563073135dxynlut2ut.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/HappyDogLogo.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/HowToHelp.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Logo.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Nic.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Nicholas.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/OurStoryPic.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/PawPrint.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Volunteer.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/images/Volunteer2.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/js/site.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.css.map">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap-theme.min.css.map">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.css.map">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/bootstrap.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/dist/js/npm.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/bootstrap/LICENSE">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/additional-methods.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/dist/jquery.validate.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery-validation/LICENSE.md">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/dist/jquery.min.map">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/lib/jquery/LICENSE.txt">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/datatables-select.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/datatables-select.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/datatables.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/datatables.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/directives.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/directives.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/flag.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/flag.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/rating.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/rating.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/zmd.hierarchical-display.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/addons/zmd.hierarchical-display.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/bootstrap.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/bootstrap.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/mdb.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/mdb.lite.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/mdb.lite.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/mdb.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/modules/animations-extended.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/modules/animations-extended.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/style.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/css/style.min.css">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Bold.eot">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Bold.ttf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Bold.woff">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Bold.woff2">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Light.eot">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Light.ttf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Light.woff">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Light.woff2">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Medium.eot">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Medium.ttf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Medium.woff">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Medium.woff2">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Regular.eot">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Regular.ttf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Regular.woff">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Regular.woff2">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Thin.eot">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Thin.ttf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Thin.woff">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/font/roboto/Roboto-Thin.woff2">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/ghost.txt">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/flags.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/lightbox/default-skin.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/lightbox/default-skin.svg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/lightbox/preloader.gif">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/01.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/02.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/03.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/04.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/05.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/06.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/07.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/08.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/overlays/09.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/sample.jpg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/svg/arrow_left.svg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/svg/arrow_right.svg">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/img/svg/flags.png">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/index.html">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/datatables-select.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/datatables-select.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/datatables.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/datatables.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/imagesloaded.pkgd.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/jquery.zmd.hierarchical-display.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/jquery.zmd.hierarchical-display.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/masonry.pkgd.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/progressBar.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/progressBar.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/rating.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/addons/rating.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/bootstrap.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/bootstrap.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/jquery-3.4.1.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/mdb.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/mdb.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/bs-custom-file-input.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/chart.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/enhanced-modals.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/forms-free.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/jquery.easing.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/scrolling-navbar.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/treeview.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/velocity.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/velocity.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/waves.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/modules/wow.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/js/popper.min.js">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/License.pdf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/README.txt">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/addons/_datatables-select.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/addons/_datatables.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/addons/_directives.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/addons/_flags.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/addons/_hierarchical-display.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/addons/_rating.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/bootstrap/_functions.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/bootstrap/_rfs.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/bootstrap/_variables.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_colors.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_global.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_helpers.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_masks.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_mixins.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_typography.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_variables.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/core/_waves.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/modules/animations-extended/animations-extended.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/modules/animations-extended/_module.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_animations-basic.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_badges.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_buttons.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_cards.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_carousels.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_depreciated.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_dropdowns.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_footers.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_forms.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_input-group.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_list-group.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_loader.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_modals.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_msc.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_navbars.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_pagination.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_steppers.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_switch.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_tables.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/free/_treeview.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/mdb.lite.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/mdb.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/_custom-styles.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/scss/_custom-variables.scss">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+    <File Include="wwwroot/MDB-Free_4.8.11/Useful_Resources.pdf">
+      <publishTime>01/30/2020 23:00:44</publishTime>
+    </File>
+  </ItemGroup>
+</Project>
