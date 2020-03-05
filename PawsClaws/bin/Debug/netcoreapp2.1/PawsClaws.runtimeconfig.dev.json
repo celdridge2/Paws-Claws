@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\haora\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\haora\\.nuget\\packages"
+      "C:\\Users\\CEldridge\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\CEldridge\\.nuget\\packages"
     ]
   }
 }
