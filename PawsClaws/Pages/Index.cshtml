@@ -4,123 +4,130 @@
     ViewData["Title"] = "Home page";
 }
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <div class="container" style="width:900px; padding-top:10px !important; padding:0;">
-        <div class="row">
-            <div id="myCarousel" class="carousel slide center-block" data-ride="carousel" data-interval="6000" style="width:900px">
-                <ol class="carousel-indicators">
-                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#myCarousel" data-slide-to="1"></li>
-                    <li data-target="#myCarousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner" role="listbox" style="height: 600px">
-                    <div class="item active">
-                        <a href="https://www.facebook.com/nicholaspethaven/"><img src="~/images/HappyDogLogo.jpg" alt="DogLogo" class="img-responsive" /></a>
-                        <div class="carousel-caption" role="option">
-                            <p>
-                                Click here to visit our Facebook page                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a asp-page="/Contact"><img src="~/images/CatLogo.jpg" alt="NicPic" class="img-responsive" /></a>
-                        <div class="carousel-caption" role="option">
-                            <p>
-                                Click here to contact us
-                            </p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <a asp-page="/About"><img src="~/images/OurStoryPic.jpg" alt="About page" class="img-responsive" /></a>
-                        <div class="carousel-caption" role="option">
-                            <p>
-                                Click here to learn more
-                            </p>
-                        </div>
-                    </div>
-                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                    </a>
+<div class="row">
+    <div id="myCarousel" class="carousel slide center-block show-neighbors" data-ride="carousel" data-interval="6000">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active">
+                <a href="https://www.facebook.com/nicholaspethaven/">
+                    <img src="~/images/HappyDogLogo.jpg" alt="DogLogo" class="img-responsive" />
+                </a>
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Click here to visit our Facebook page
+                    </p>
                 </div>
+            </div>
+            <div class="item">
+                <a asp-page="/Contact">
+                    <img src="~/images/CatLogo.jpg" alt="NicPic" class="img-responsive" />
+                </a>
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Click here to contact us
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <a asp-page="/About">
+                    <img src="~/images/OurStoryPic.jpg" alt="About page" class="img-responsive" />
+                </a>
+                <div class="carousel-caption" role="option">
+                    <p>
+                        Click here to learn more
+                    </p>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="flip-card col-3">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="~/images/adopt.jpg" alt="Avatar" class="img-responsive">
+            </div>
+            <div class="flip-card-back">
+                <img src="~/images/adopt2.jpg" class="img-responsive" />
+                <p style="margin-top: 17px;font-weight: bold;">We need passionate and caring owners for our cats and dogs.</p>
+                <p>If you you are interested, please click the button below and fill out an application.</p>
+                <a class="btn btn-danger" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fnphadmin.wufoo.com%2Fforms%2Fq191z0tm1osxnnx%2F%3Ffbclid%3DIwAR2HHQ0erDRLxKU48x4UjWuhvW5aRFHR8BMPYMhNCmfxrkzdc9HE-s4lgtw&h=AT1yb3_5bBntRnjrVvL5bZQX6mzCXcwTO3tslrzYzZBdMxpbKd9LXCvUJujs4AjyldrZRJNdw4KpBZ8O8o8tqQ0s8zcqLDXipr8SUtTylo0MJVsMqUE254YT2mVWST0_f3krs4Wy9zjbnYWiFtuNcbC_V1QEl--Dll0WitiGhK2E9NZtZsre8joXpNGajKc6TKF3PQRovbdxbcm5pt12Ks6bUY2u9JRZoUJ8HvqV8e0-7XaKmklBsGGYFv66eqWy7rOwyOVEH8htk6hx9wj20bYelLMDOk9QgX5wIrHzMuJSd0FNKE1pCiQQlAiyjYF3tSV-pePLutb5c80TA8OZWj3lRvGyQkoEUrEHqS53SmF_P547WM0hQy78RWpVqLS9LNkf3WkmyB2V2ehE_d0MiwU1OuruW_hju6Y3dqWr0Wz4EKeWQ_gKwjZb54vENdS87hGHtYCJYhHIGW-XxwMu28fK_vTSYsGLz6h0vqNF9bRRHdalODUwQiue-ljoXY_NhQhBfG3QF7dGkvOPhQSibjqrpx3Mb_m_5weplTHIoxm5cuLUZcQiik6jTySn0PBpIYdNP09AB_NkQgB-qz3lYlxosob92hqHksMWCnnxpFhYQ9HmPK-XcQVeUwfqA4pAXsLLwwj5-siUlCRTqy07FX3E0uzCG1ENm_0IhcMFM3gke5t0wDiQqY-Qh38COZ_CDET57o4rdmIOH3qGw4LMfs6aGmLjom6tK9DEcV2vv09pb9vwRKq5XN-zx4EPvE0p1HqV2Qp-EKsR6CMHcGabB3RLrJOxiwQVSIES69oy2bqofcu-0rFmrn3vAUq2TPhi6rZN1IHSfP1QVRYsR6CPNJEv88Ys582XuhRVM_XWmDdM8KnhRRQne4XlmgyjCLF9Xgs1rpS-zYhlj3Fbfl4">Adoption Application</a>
+                <p> </p>
             </div>
         </div>
-        <div class="row center-block centercontent" style="margin-left:-1px;margin-right:0px;">
-            <div class="flip-card col-sm-6">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="~/images/adopt.jpg" alt="Avatar" style="width:450px;height:400px;">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="~/images/adopt2.jpg" style="width:450px;" />
-                        <p style="margin-top:17px;font-weight:bold;">We need passionate and caring owners for our cats and dogs.</p>
-                        <p>If you you are interested, please click the button below and fill out an application.</p>
-                        <a class="btn btn-danger" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fnphadmin.wufoo.com%2Fforms%2Fq191z0tm1osxnnx%2F%3Ffbclid%3DIwAR2HHQ0erDRLxKU48x4UjWuhvW5aRFHR8BMPYMhNCmfxrkzdc9HE-s4lgtw&h=AT1yb3_5bBntRnjrVvL5bZQX6mzCXcwTO3tslrzYzZBdMxpbKd9LXCvUJujs4AjyldrZRJNdw4KpBZ8O8o8tqQ0s8zcqLDXipr8SUtTylo0MJVsMqUE254YT2mVWST0_f3krs4Wy9zjbnYWiFtuNcbC_V1QEl--Dll0WitiGhK2E9NZtZsre8joXpNGajKc6TKF3PQRovbdxbcm5pt12Ks6bUY2u9JRZoUJ8HvqV8e0-7XaKmklBsGGYFv66eqWy7rOwyOVEH8htk6hx9wj20bYelLMDOk9QgX5wIrHzMuJSd0FNKE1pCiQQlAiyjYF3tSV-pePLutb5c80TA8OZWj3lRvGyQkoEUrEHqS53SmF_P547WM0hQy78RWpVqLS9LNkf3WkmyB2V2ehE_d0MiwU1OuruW_hju6Y3dqWr0Wz4EKeWQ_gKwjZb54vENdS87hGHtYCJYhHIGW-XxwMu28fK_vTSYsGLz6h0vqNF9bRRHdalODUwQiue-ljoXY_NhQhBfG3QF7dGkvOPhQSibjqrpx3Mb_m_5weplTHIoxm5cuLUZcQiik6jTySn0PBpIYdNP09AB_NkQgB-qz3lYlxosob92hqHksMWCnnxpFhYQ9HmPK-XcQVeUwfqA4pAXsLLwwj5-siUlCRTqy07FX3E0uzCG1ENm_0IhcMFM3gke5t0wDiQqY-Qh38COZ_CDET57o4rdmIOH3qGw4LMfs6aGmLjom6tK9DEcV2vv09pb9vwRKq5XN-zx4EPvE0p1HqV2Qp-EKsR6CMHcGabB3RLrJOxiwQVSIES69oy2bqofcu-0rFmrn3vAUq2TPhi6rZN1IHSfP1QVRYsR6CPNJEv88Ys582XuhRVM_XWmDdM8KnhRRQne4XlmgyjCLF9Xgs1rpS-zYhlj3Fbfl4">Adoption Application</a>
-                    </div>
-                </div>
+        <div class="clear"></div>
+    </div>
+    <div class="flip-card col-xs-3">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="~/images/foster.jpg" alt="Avatar" class="img-responsive">
             </div>
-            <div class="flip-card col-sm-6">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="~/images/foster.jpg" alt="Avatar" style="width:450px;height:400px;">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="~/images/foster2.jpg" style="width:450px;" />
-                        <p style="margin-top:17px;font-weight:bold;">We need help from animal lovers to help house pets before they find their forever home!</p>
-                        <p>If you are interested, please click the button below and fill out an application.</p>
-                        <a class="btn btn-danger" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fnphadmin.wufoo.com%2Fforms%2Fw1pgzcbk0adtw0g%2F%3Ffbclid%3DIwAR3U7UKI6qImrqcjHgBW4lUph2jctaTumYpkgEHNCz1RGz7CJ6dve9FRa4U&h=AT1VlWysgjIllamKmRRlI9Vxy9DX88ZnVet_eTKt_LW7m4NeyIAUSC2o20sj-2aOVv1oaei_946fwMjtUjaIH0yPSxncBQJjpyvtPglIOPPSnlpczj8fWFZ6phGQY5xh8-WZ70dcn5KkKoXVk-jAE-JzT7Az2QhEx1aqltrVZ_tm3blFdIPohweYg4dqHFs0azORa-rgQ1llPB3gp4SIISSGQOPFtgHiO6O_YKCfuIUFCRFEKR0EXI86Rh6FH838nuqBjqQWVJqmzm9YYm0-Y2uPtumFll2HiF4km5Tx4ox1J0pRbaJvExaT6rRiEsYziVOKdnSMzIx49BpDnhIQdwRPRZSGAkXEt662BiGQ_HtQBbQvpAS5TAfAz7YZ_j3APQqD0kdTHxx5CwS8jmTZqTWuVIOrq003rE6QO1lw0Q-yAZp2NrU4OtCyIJbVRmDyddhxG5gnrPUnsjKzU7y1c2YqeUTR0HQMgkqzEqVkMV_ljbHiFbDxav40z9Y7D8snGDYO1lySba0WHWU0WdQNxjF0w5JSBoG9AbVeqxAd_eztMMAoyJ4_8HZICvwQ2XvN0ufdNSz9TJEG7tBU7CWVzaRlhXQwKeWYjgny2H9p9bGnmI6n_T9yZVl13ByKeMkK36zJkbek8zfoy4kOwOGquOQg_AHZ-g6JIuIloqwPlw-qmkPP_Ka-j2-ylONQY8NrrDyC-xoVWtWb3ij547IsE6_NKC5w-nU1c0tEySHqbagY15vx2KAwjiy7WNtKHNKgX9f210ut6YCMHsj8WwcyeY1N0WYFz-DCmO9JvNeH7kncjGmjeAx-Q2YOCtfyS61xRcJ7qSvavmA6xRCyCT3tgLEz0uB08f4mW9Y1NVK_8HsCGgf1wpPB7znwUS0DcDYAfC5YSWXACEUHLfZksoo">Foster Application</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row center-block centercontent" style="margin-left:-1px;margin-right:0px;">
-            <div class="flip-card col-sm-6">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="~/images/Volunteer.jpg" alt="Avatar" style="width:450px;height:400px;">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="~/images/Volunteer2.jpg" style="width:450px;" />
-                        <p style="margin-top:10px;font-weight:bold;">We need all the help we can get!</p>
-                        <p>If you are interested in volunteering, please click the button below to contact us through our facebook page.</p>
-                        <a class="btn btn-danger" href="https://m.me/nicholaspethaven">Volunteer</a>
-                    </div>
-                </div>
-            </div>
-            <div class="flip-card col-sm-6">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="~/images/Donate.jpg" alt="Avatar" style="width:450px;height:400px;">
-                    </div>
-                    <div class="flip-card-back">
-                        <img src="~/images/donate2.jpg" style="width:450px;" />
-                        <p style="margin-top:17px;font-weight:bold;">We are a local no kill pet shelter and we try to help as many animals.</p>
-                        <p>If you are interested supporting us, please consider our donation page on facebook below!</p>
-                        <a class="btn btn-danger" href="https://www.facebook.com/pg/nicholaspethaven/fundraisers/?ref=page_internal">Donate</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row center-block centercontent" style="margin-left:-1px;margin-right:0px;">
-            <div class="flip-card col-sm-6" style="height:300px;">
-                <div class="flip-card-inner">
-                    <div class="flip-card-front">
-                        <img src="~/images/HowToHelp.jpg" class="card-img-top" style="width:450px;">
-                    </div>
-                    <div class="flip-card-back">
-                        <p> </p>
-                        <a href="https://www.facebook.com/nicholaspethaven/"><img src="~/images/facebookIcon.png" height="75" width="75" class="img-circle" /></a>
-                        <h1>Anything helps!</h1>
-                        <p>Nicholas Pet Haven has grown a lot over the years and we appreciate any and all help. If you'd like to check out our page, please click the facebook icon and see what you can do to contribute. The more people the reach, the more animals we can help so if you can spare the time to like a post or share a story we would really appreciate it.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-6" style="padding:0px;width: 50% !important">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.669404186735!2d-95.35014608725916!3d32.29386518112055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8649cbac753c59e1%3A0x59647d973ed3e462!2sNicholas%20Pet%20Haven!5e0!3m2!1sen!2sus!4v1575229887193!5m2!1sen!2sus" width="451" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            <div class="flip-card-back">
+                <img src="~/images/foster2.jpg" class="img-responsive" />
+                <p style="margin-top:17px;font-weight:bold;">We need help from animal lovers to help house pets before they find their forever home!</p>
+                <p>If you are interested, please click the button below and fill out an application.</p>
+                <a class="btn btn-danger" href="https://l.facebook.com/l.php?u=https%3A%2F%2Fnphadmin.wufoo.com%2Fforms%2Fw1pgzcbk0adtw0g%2F%3Ffbclid%3DIwAR3U7UKI6qImrqcjHgBW4lUph2jctaTumYpkgEHNCz1RGz7CJ6dve9FRa4U&h=AT1VlWysgjIllamKmRRlI9Vxy9DX88ZnVet_eTKt_LW7m4NeyIAUSC2o20sj-2aOVv1oaei_946fwMjtUjaIH0yPSxncBQJjpyvtPglIOPPSnlpczj8fWFZ6phGQY5xh8-WZ70dcn5KkKoXVk-jAE-JzT7Az2QhEx1aqltrVZ_tm3blFdIPohweYg4dqHFs0azORa-rgQ1llPB3gp4SIISSGQOPFtgHiO6O_YKCfuIUFCRFEKR0EXI86Rh6FH838nuqBjqQWVJqmzm9YYm0-Y2uPtumFll2HiF4km5Tx4ox1J0pRbaJvExaT6rRiEsYziVOKdnSMzIx49BpDnhIQdwRPRZSGAkXEt662BiGQ_HtQBbQvpAS5TAfAz7YZ_j3APQqD0kdTHxx5CwS8jmTZqTWuVIOrq003rE6QO1lw0Q-yAZp2NrU4OtCyIJbVRmDyddhxG5gnrPUnsjKzU7y1c2YqeUTR0HQMgkqzEqVkMV_ljbHiFbDxav40z9Y7D8snGDYO1lySba0WHWU0WdQNxjF0w5JSBoG9AbVeqxAd_eztMMAoyJ4_8HZICvwQ2XvN0ufdNSz9TJEG7tBU7CWVzaRlhXQwKeWYjgny2H9p9bGnmI6n_T9yZVl13ByKeMkK36zJkbek8zfoy4kOwOGquOQg_AHZ-g6JIuIloqwPlw-qmkPP_Ka-j2-ylONQY8NrrDyC-xoVWtWb3ij547IsE6_NKC5w-nU1c0tEySHqbagY15vx2KAwjiy7WNtKHNKgX9f210ut6YCMHsj8WwcyeY1N0WYFz-DCmO9JvNeH7kncjGmjeAx-Q2YOCtfyS61xRcJ7qSvavmA6xRCyCT3tgLEz0uB08f4mW9Y1NVK_8HsCGgf1wpPB7znwUS0DcDYAfC5YSWXACEUHLfZksoo">Foster Application</a>
+                <p> </p>
             </div>
         </div>
     </div>
-                       
+    <div class="flip-card col-xs-3">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="~/images/Volunteer.jpg" alt="Avatar" class="img-responsive">
+            </div>
+            <div class="flip-card-back">
+                <img src="~/images/Volunteer2.jpg" class="img-responsive" />
+                <p style="margin-top:10px;font-weight:bold;">We need all the help we can get!</p>
+                <p>If you are interested in volunteering, please click the button below to contact us through our facebook page.</p>
+                <a class="btn btn-danger" href="https://m.me/nicholaspethaven">Volunteer</a>
+                <p> </p>
+            </div>
+        </div>
+    </div>
+    <div class="flip-card col-xs-3">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="~/images/Donate.jpg" alt="Avatar" class="img-responsive">
+            </div>
+            <div class="flip-card-back">
+                <img src="~/images/donate2.jpg" class="img-responsive" />
+                <p style="margin-top:17px;font-weight:bold;">We are a local no kill pet shelter and we try to help as many animals.</p>
+                <p>If you are interested supporting us, please consider our donation page on facebook below!</p>
+                <a class="btn btn-danger" href="https://www.facebook.com/pg/nicholaspethaven/fundraisers/?ref=page_internal">Donate</a>
+                <p> </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!--<div class="row">
+    <div class="flip-card col-sm-2" style="height:300px;">
+        <div class="flip-card-inner">
+            <div class="flip-card-front">
+                <img src="~/images/HowToHelp.jpg" class="card-img-top" style="width:450px;">
+            </div>
+            <div class="flip-card-back">
+                <p> </p>
+                <a href="https://www.facebook.com/nicholaspethaven/"><img src="~/images/facebookIcon.png" height="75" width="75" class="img-circle" /></a>
+                <h1>Anything helps!</h1>
+                <p>Nicholas Pet Haven has grown a lot over the years and we appreciate any and all help. If you'd like to check out our page, please click the facebook icon and see what you can do to contribute. The more people the reach, the more animals we can help so if you can spare the time to like a post or share a story we would really appreciate it.</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-2" style="padding:0px;width: 50% !important">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3372.669404186735!2d-95.35014608725916!3d32.29386518112055!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8649cbac753c59e1%3A0x59647d973ed3e462!2sNicholas%20Pet%20Haven!5e0!3m2!1sen!2sus!4v1575229887193!5m2!1sen!2sus" width="451" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+    </div>
+</div>
+    -->
