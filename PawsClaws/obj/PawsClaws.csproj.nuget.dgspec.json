@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj": {}
+    "C:\\Users\\CEldridge\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj": {}
   },
   "projects": {
-    "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj": {
+    "C:\\Users\\CEldridge\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+        "projectUniqueName": "C:\\Users\\CEldridge\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
         "projectName": "PawsClaws",
-        "projectPath": "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
-        "packagesPath": "C:\\Users\\haora\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\haora\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
+        "projectPath": "C:\\Users\\CEldridge\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\PawsClaws.csproj",
+        "packagesPath": "C:\\Users\\CEldridge\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\CEldridge\\Source\\Repos\\celdridge2\\Paws-Claws\\PawsClaws\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\haora\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\CEldridge\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
